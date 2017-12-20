@@ -1,0 +1,5 @@
+Ice.TermRanker.alpha = 0
+Ice.Bootstrapper.diversify = false
+Ice.Bootstrapper.debug     = false
+Ice.IcePreprocessor.parseprops = parseprops
+# Ice.DepEmbeddings.fileName = /Users/nuist/documents/NlpResearch/WordEmbeddings/glove/glove.6B.300d.txt

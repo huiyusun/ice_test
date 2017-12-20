@@ -1,0 +1,29 @@
+--- !java.util.TreeMap
+ACE-nw: !edu.nyu.jet.ice.models.Corpus
+  backgroundCorpus: merged12-all
+  directory: /home/grishman/jetx/data/ACE/2005/training/nw
+  docListFileName: cache/ACE-nw/docList
+  filter: sgm
+  name: ACE-nw
+  numberOfDocs: 106
+  relationBuilder: !edu.nyu.jet.ice.uicomps.RelationBuilder {}
+  relationInstanceFileName: cache/ACE-nw/Relations
+  relationTypeFileName: cache/ACE-nw/Relationtypes
+  termFilter: !edu.nyu.jet.ice.uicomps.TermFilter {}
+  wordCountFileName: cache/ACE-nw/counts
+merged12-all: !edu.nyu.jet.ice.models.Corpus
+  backgroundCorpus: ACE-nw
+  directory: merged12-dir
+  docListFileName: cache/merged12-all/docList
+  filter: txt
+  name: merged12-all
+  relationBuilder: !edu.nyu.jet.ice.uicomps.RelationBuilder {}
+  relationInstanceFileName: cache/merged12-all/Relations
+  relationTypeFileName: cache/merged12-all/Relationtypes
+  relationsSuggested: !java.util.HashSet
+    - GPE attain NUMBER hour standard
+  termFileName: cache/merged12-all/terms
+  termFilter: !edu.nyu.jet.ice.uicomps.TermFilter {}
+  wordCountFileName: cache/merged12-all/counts
+--- !java.util.TreeMap {}
+--- !java.util.TreeMap {}
